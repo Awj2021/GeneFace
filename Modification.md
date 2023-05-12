@@ -1,5 +1,6 @@
 # Modification
 记录在运行过程中的一些bugs, 以及相应的解决方案；
+
 ## Environment Setting.
 - 3090:
 如果有3090的显卡，为了方便，直接通过.yaml文件进行安装(此处直接忽略install_guide.md) 
@@ -18,4 +19,7 @@ conda activate geneface
 conda env update --file geneface_rtx3090.yaml --prune   
 pip install dominate
 ```
+
+## Quick Start
+Following the guidance given by the author, directly testing the May.mp4 video.
 
